@@ -94,6 +94,9 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-me__picture--mask {
@@ -105,3 +108,11 @@ nav {
     margin-bottom: 28px;
 }
 
+.about-me__info--para {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.about-me__info--title {
+    margin-bottom: 16px;
+}
